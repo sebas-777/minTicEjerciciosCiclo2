@@ -47,9 +47,35 @@ var1 = 'ola'
 var2 = 'orange'
 print(var1 in var2)
 
-# compador de string
+# comparador de string
 
 palabra = "banana"
 
 if palabra == "banana":
     print("las bananas son geniales")
+
+
+# Operaciones de comparación son útiles para poner 
+# las palabras en orden alfabético:
+
+print("INGRESE SU FRUTA :")
+palabra = input( )
+
+if palabra < "banana" :
+    print('Tu palabra ' + palabra + ', viene antes de banana')
+elif palabra > "banana" :
+    print('Tu palabra' + palabra + ', viene despues de banana')
+else:
+    print('Su palabra es banana') 
+
+# Métodos de un string
+
+cadena = 'Hola mundo'
+
+type(cadena)
+
+dir(cadena)
+
+print(dir(cadena))
+
+# metodo uppercase
